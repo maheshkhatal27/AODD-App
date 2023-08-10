@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1068027_aodd.AODD Customer</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>AODD Customer</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-04 13:52:35</sys_created_on>
+        <sys_id>6c9cf18497603110efa57076f053afd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1068027_aodd.AODD Customer</sys_name>
+        <sys_package display_value="AODD" source="x_1068027_aodd">a842f58897203110efa57076f053afc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AODD">a842f58897203110efa57076f053afc5</sys_scope>
+        <sys_update_name>sys_user_role_6c9cf18497603110efa57076f053afd3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-04 13:52:35</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AODD">a842f58897203110efa57076f053afc5</application>
+        <file_path/>
+        <instance_id>f9cb7e99db729f0052e3f70fbf96198e</instance_id>
+        <instance_name>dev61671</instance_name>
+        <name>sys_user_role_6c9cf18497603110efa57076f053afd3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_1068027_aodd.AODD Customer</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>AODD Customer</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-04 13:52:35</sys_created_on><sys_id>6c9cf18497603110efa57076f053afd3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1068027_aodd.AODD Customer</sys_name><sys_package display_value="AODD" source="x_1068027_aodd">a842f58897203110efa57076f053afc5</sys_package><sys_policy/><sys_scope display_value="AODD">a842f58897203110efa57076f053afc5</sys_scope><sys_update_name>sys_user_role_6c9cf18497603110efa57076f053afd3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-04 13:52:35</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>1506436450</payload_hash>
+        <record_name>x_1068027_aodd.AODD Customer</record_name>
+        <reverted_from/>
+        <source>6442f58897203110efa57076f053afc7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-04 13:52:35</sys_created_on>
+        <sys_id>6aac318497603110efa57076f053af65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189c0d250950000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-04 13:52:35</sys_updated_on>
+        <type>Role</type>
+        <update_guid>aeac31849e6031100086f0c06b299864</update_guid>
+        <update_guid_history>aeac31849e6031100086f0c06b299864:1506436450</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1068027_aodd.AODD Customer">443d7d8497603110efa57076f053aff0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-04 13:54:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>3af5d2ff26c2407698e847cc194ff379</sys_id>
+        <sys_metadata>6c9cf18497603110efa57076f053afd3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1068027_aodd.AODD Customer</sys_name>
+        <sys_package display_value="AODD" source="x_1068027_aodd">a842f58897203110efa57076f053afc5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AODD">a842f58897203110efa57076f053afc5</sys_scope>
+        <sys_scope_delete display_value="">7a4604c2781748e1a56bf263201e5789</sys_scope_delete>
+        <sys_update_name>sys_user_role_6c9cf18497603110efa57076f053afd3</sys_update_name>
+        <sys_update_version display_value="sys_user_role_6c9cf18497603110efa57076f053afd3">6aac318497603110efa57076f053af65</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-04 13:54:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

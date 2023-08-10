@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <device_type/>
+        <filter table="x_1068027_aodd_os_image">region=us-east^EQ<item display_value="US-East" endquery="false" field="region" goto="false" newquery="false" operator="=" or="false" value="us-east"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>US-East</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1068027_aodd_os_image</name>
+        <order>100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-04 13:28:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b286f9cc97203110efa57076f053af66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>US-East</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AODD" source="x_1068027_aodd">a842f58897203110efa57076f053afc5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AODD">a842f58897203110efa57076f053afc5</sys_scope>
+        <sys_update_name>sys_app_module_b286f9cc97203110efa57076f053af66</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-04 13:28:07</sys_updated_on>
+        <timeline_page/>
+        <title>US-East</title>
+        <uncancelable>false</uncancelable>
+        <view_name>US-East</view_name>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AODD">a842f58897203110efa57076f053afc5</application>
+        <file_path/>
+        <instance_id>f9cb7e99db729f0052e3f70fbf96198e</instance_id>
+        <instance_name>dev61671</instance_name>
+        <name>sys_app_module_b286f9cc97203110efa57076f053af66</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><device_type/><filter table="x_1068027_aodd_os_image">region=us-east^EQ<item display_value="US-East" endquery="false" field="region" goto="false" newquery="false" operator="=" or="false" value="us-east"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>US-East</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1068027_aodd_os_image</name><order>100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-04 13:28:07</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b286f9cc97203110efa57076f053af66</sys_id><sys_mod_count>0</sys_mod_count><sys_name>US-East</sys_name><sys_overrides/><sys_package display_value="AODD" source="x_1068027_aodd">a842f58897203110efa57076f053afc5</sys_package><sys_policy/><sys_scope display_value="AODD">a842f58897203110efa57076f053afc5</sys_scope><sys_update_name>sys_app_module_b286f9cc97203110efa57076f053af66</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-04 13:28:07</sys_updated_on><timeline_page/><title>US-East</title><uncancelable>false</uncancelable><view_name>US-East</view_name><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1357447303</payload_hash>
+        <record_name>US-East</record_name>
+        <reverted_from/>
+        <source>6442f58897203110efa57076f053afc7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-04 13:28:07</sys_created_on>
+        <sys_id>5017f1cc97203110efa57076f053af0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189c0bbe9c90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-04 13:28:07</sys_updated_on>
+        <type>Module</type>
+        <update_guid>8417f1cc8b203110815494d8abd1bc0b</update_guid>
+        <update_guid_history>8417f1cc8b203110815494d8abd1bc0b:1357447303</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="US-East">df18f90097603110efa57076f053afa4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-04 13:32:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>2ba5230fff75442eba3dd75f8cbf8fa9</sys_id>
+        <sys_metadata>b286f9cc97203110efa57076f053af66</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>US-East</sys_name>
+        <sys_package display_value="AODD" source="x_1068027_aodd">a842f58897203110efa57076f053afc5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AODD">a842f58897203110efa57076f053afc5</sys_scope>
+        <sys_scope_delete display_value="">7a4604c2781748e1a56bf263201e5789</sys_scope_delete>
+        <sys_update_name>sys_app_module_b286f9cc97203110efa57076f053af66</sys_update_name>
+        <sys_update_version display_value="sys_app_module_b286f9cc97203110efa57076f053af66">5017f1cc97203110efa57076f053af0c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-04 13:32:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8192b5c897203110efa57076f053af84" label="OS Image" max_length="40" name="x_1068027_aodd_os_image" type="collection">
+        <element label="AD Groups" max_length="32" name="ad_groups" reference="sys_user_group" type="reference"/>
+        <element label="AD Users" max_length="32" name="ad_users" reference="sys_user" type="reference"/>
+        <element label="Business justification" max_length="4000" name="business_justification" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date Of Issue" max_length="40" name="date_of_issue" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Region" max_length="40" name="region" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="US-East" sequence="0" value="us-east"/>
+                <element inactive_on_update="false" label="US-West" sequence="1" value="us-west"/>
+                <element inactive_on_update="false" label="US-Central" sequence="2" value="us-central"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="region" dependent_on_field="region" label="Sub-Region" max_length="40" name="sub_region" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="us-east" inactive_on_update="false" label="Chicago" value="chicago"/>
+                <element dependent_value="us-central" inactive_on_update="false" label="Kansas" value="kansas"/>
+                <element dependent_value="us-west" inactive_on_update="false" label="Los Angeles" value="losangeles"/>
+                <element dependent_value="us-central" inactive_on_update="false" label="Missouri" value="missouri"/>
+                <element dependent_value="us-east" inactive_on_update="false" label="New York City" value="newyork"/>
+                <element dependent_value="us-west" inactive_on_update="false" label="San Francisco" value="sanfancisco"/>
+            </choice>
+        </element>
+        <element label="XYZ" max_length="40" name="xyz" type="string"/>
+        <index name="index">
+            <element name="ad_groups"/>
+        </index>
+        <index name="index2">
+            <element name="ad_users"/>
+        </index>
+    </element>
+</database>
